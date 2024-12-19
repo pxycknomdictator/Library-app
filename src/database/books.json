@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "title": "The Great Gatsby",
+    "author": "George Orwell",
+    "genre": "Dystopian",
+    "year": 1949,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780141182636-L.jpg",
+    "description": "A tale of societal critique and the perils of a controlled utopia."
+  },
+  {
+    "id": 2,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "Romance",
+    "year": 1813,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780141199078-L.jpg",
+    "description": "A witty commentary on societal expectations and love in 19th century England."
+  },
+  {
+    "id": 3,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Fiction",
+    "year": 1960,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780061120084-L.jpg",
+    "description": "A powerful exploration of racial injustice in the American South."
+  },
+  {
+    "id": 4,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Classic",
+    "year": 1925,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780743273565-L.jpg",
+    "description": "A tragic story of love, ambition, and the American dream."
+  },
+  {
+    "id": 5,
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "genre": "Adventure",
+    "year": 1851,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780142437247-L.jpg",
+    "description": "An epic tale of obsession and vengeance on the high seas."
+  },
+  {
+    "id": 6,
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "genre": "Historical",
+    "year": 1869,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780199232765-L.jpg",
+    "description": "A sweeping chronicle of Russian society during the Napoleonic era."
+  },
+  {
+    "id": 7,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "genre": "Fiction",
+    "year": 1951,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780316769488-L.jpg",
+    "description": "A poignant tale of teenage rebellion and self-discovery."
+  },
+  {
+    "id": 8,
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "year": 1937,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780345339683-L.jpg",
+    "description": "A fantastical journey of courage and friendship in Middle-earth."
+  },
+  {
+    "id": 9,
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "genre": "Science Fiction",
+    "year": 1953,
+    "image": "https://covers.openlibrary.org/b/ISBN/9781451673319-L.jpg",
+    "description": "A dystopian vision of a future where books are outlawed."
+  },
+  {
+    "id": 10,
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "genre": "Classic",
+    "year": 1847,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780141441146-L.jpg",
+    "description": "A story of love, independence, and resilience against societal norms."
+  },
+  {
+    "id": 11,
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "year": 1954,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780544003415-L.jpg",
+    "description": "An epic tale of friendship and the fight against darkness in Middle-earth."
+  },
+  {
+    "id": 12,
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "genre": "Political Satire",
+    "year": 1945,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780451526342-L.jpg",
+    "description": "A biting allegory on power, corruption, and societal control."
+  },
+  {
+    "id": 13,
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "genre": "Philosophical",
+    "year": 1880,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780374528379-L.jpg",
+    "description": "A profound exploration of morality, faith, and family dynamics."
+  },
+  {
+    "id": 14,
+    "title": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "genre": "Classic",
+    "year": 1847,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780141439556-L.jpg",
+    "description": "A dark tale of passion, revenge, and the destructive power of love."
+  },
+  {
+    "id": 15,
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "genre": "Psychological",
+    "year": 1866,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780486415871-L.jpg",
+    "description": "A gripping story of guilt, redemption, and moral dilemmas."
+  },
+  {
+    "id": 16,
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "genre": "Dystopian",
+    "year": 1932,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780060850524-L.jpg",
+    "description": "A chilling vision of a technologically advanced yet dehumanized world."
+  },
+  {
+    "id": 17,
+    "title": "The Odyssey",
+    "author": "Homer",
+    "genre": "Epic",
+    "year": "8th Century BC",
+    "image": "https://covers.openlibrary.org/b/ISBN/9780140268867-L.jpg",
+    "description": "The timeless journey of Odysseus, full of trials and triumphs."
+  },
+  {
+    "id": 18,
+    "title": "Les Misérables",
+    "author": "Victor Hugo",
+    "genre": "Historical",
+    "year": 1862,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780451419439-L.jpg",
+    "description": "An epic tale of love, injustice, and the fight for freedom."
+  },
+  {
+    "id": 19,
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "genre": "Horror",
+    "year": 1897,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780141439846-L.jpg",
+    "description": "The chilling story of Count Dracula and his reign of terror."
+  },
+  {
+    "id": 20,
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "genre": "Philosophical Fiction",
+    "year": 1890,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780141439570-L.jpg",
+    "description": "A haunting tale of vanity, moral corruption, and the price of eternal youth."
+  },
+  {
+    "id": 21,
+    "title": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "genre": "Adventure",
+    "year": 1844,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780140449266-L.jpg",
+    "description": "A thrilling story of betrayal, revenge, and redemption."
+  },
+  {
+    "id": 22,
+    "title": "Of Mice and Men",
+    "author": "John Steinbeck",
+    "genre": "Fiction",
+    "year": 1937,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780142000670-L.jpg",
+    "description": "A touching tale of friendship and the pursuit of dreams during the Great Depression."
+  },
+  {
+    "id": 23,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": "Fable",
+    "year": 1988,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780061122415-L.jpg",
+    "description": "A philosophical journey about self-discovery and pursuing one's dreams."
+  },
+  {
+    "id": 24,
+    "title": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "genre": "Satire",
+    "year": 1615,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780060934347-L.jpg",
+    "description": "The comedic adventures of an idealistic knight and his loyal squire."
+  },
+  {
+    "id": 25,
+    "title": "The Road",
+    "author": "Cormac McCarthy",
+    "genre": "Post-apocalyptic",
+    "year": 2006,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780307387899-L.jpg",
+    "description": "A bleak yet hopeful journey of survival in a devastated world."
+  },
+  {
+    "id": 26,
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "genre": "Horror",
+    "year": 1818,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780486282114-L.jpg",
+    "description": "A gripping tale of creation, ambition, and the consequences of playing God."
+  },
+  {
+    "id": 27,
+    "title": "The Grapes of Wrath",
+    "author": "John Steinbeck",
+    "genre": "Fiction",
+    "year": 1939,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780143039433-L.jpg",
+    "description": "A heart-wrenching story of a family's struggle during the Dust Bowl."
+  },
+  {
+    "id": 28,
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Dystopian",
+    "year": 1949,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780451524935-L.jpg",
+    "description": "A chilling depiction of a totalitarian regime and the loss of individual freedom."
+  },
+  {
+    "id": 29,
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "genre": "Fiction",
+    "year": 2003,
+    "image": "https://covers.openlibrary.org/b/ISBN/9781594480003-L.jpg",
+    "description": "A poignant story of friendship, betrayal, and redemption in Afghanistan."
+  },
+  {
+    "id": 30,
+    "title": "Life of Pi",
+    "author": "Yann Martel",
+    "genre": "Adventure",
+    "year": 2001,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780156027328-L.jpg",
+    "description": "An incredible tale of survival and faith in the face of adversity."
+  },
+  {
+    "id": 31,
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "genre": "Historical",
+    "year": 2005,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780375842206-L.jpg",
+    "description": "A heartwarming yet tragic story set in Nazi Germany, narrated by Death."
+  },
+  {
+    "id": 32,
+    "title": "The Giver",
+    "author": "Lois Lowry",
+    "genre": "Science Fiction",
+    "year": 1993,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780544336261-L.jpg",
+    "description": "A thought-provoking story of a boy discovering the truth about his controlled society."
+  },
+  {
+    "id": 33,
+    "title": "The Secret Garden",
+    "author": "Frances Hodgson Burnett",
+    "genre": "Children's Fiction",
+    "year": 1911,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780141321066-L.jpg",
+    "description": "A charming tale of friendship, growth, and the magic of nature."
+  },
+  {
+    "id": 34,
+    "title": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "genre": "Historical",
+    "year": 1859,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780141439600-L.jpg",
+    "description": "A compelling story of love, sacrifice, and redemption set during the French Revolution."
+  },
+  {
+    "id": 35,
+    "title": "Little Women",
+    "author": "Louisa May Alcott",
+    "genre": "Fiction",
+    "year": 1868,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780147514011-L.jpg",
+    "description": "A heartwarming tale of sisterhood, ambition, and personal growth."
+  },
+  {
+    "id": 36,
+    "title": "The Shining",
+    "author": "Stephen King",
+    "genre": "Horror",
+    "year": 1977,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780307743657-L.jpg",
+    "description": "A chilling tale of a family trapped in a haunted hotel."
+  },
+  {
+    "id": 37,
+    "title": "Slaughterhouse-Five",
+    "author": "Kurt Vonnegut",
+    "genre": "Science Fiction",
+    "year": 1969,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780385333849-L.jpg",
+    "description": "A darkly comedic exploration of war, fate, and time travel."
+  },
+  {
+    "id": 38,
+    "title": "The Bell Jar",
+    "author": "Sylvia Plath",
+    "genre": "Fiction",
+    "year": 1963,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780060837020-L.jpg",
+    "description": "A powerful and haunting novel about mental illness and self-discovery."
+  },
+  {
+    "id": 39,
+    "title": "Beloved",
+    "author": "Toni Morrison",
+    "genre": "Fiction",
+    "year": 1987,
+    "image": "https://covers.openlibrary.org/b/ISBN/9781400033416-L.jpg",
+    "description": "A profoundly moving story of love, loss, and the legacy of slavery."
+  },
+  {
+    "id": 40,
+    "title": "The Catch-22",
+    "author": "Joseph Heller",
+    "genre": "Satire",
+    "year": 1961,
+    "image": "https://covers.openlibrary.org/b/ISBN/9781451626650-L.jpg",
+    "description": "A biting satire of bureaucracy and the absurdities of war."
+  },
+  {
+    "id": 41,
+    "title": "The Sun Also Rises",
+    "author": "Ernest Hemingway",
+    "genre": "Fiction",
+    "year": 1926,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780743297332-L.jpg",
+    "description": "A poignant story of love and loss among expatriates in post-WWI Europe."
+  },
+  {
+    "id": 42,
+    "title": "The Handmaid's Tale",
+    "author": "Margaret Atwood",
+    "genre": "Dystopian",
+    "year": 1985,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780385490818-L.jpg",
+    "description": "A chilling exploration of a totalitarian regime and the oppression of women."
+  },
+  {
+    "id": 43,
+    "title": "Gone with the Wind",
+    "author": "Margaret Mitchell",
+    "genre": "Historical",
+    "year": 1936,
+    "image": "https://covers.openlibrary.org/b/ISBN/9781416548942-L.jpg",
+    "description": "A sweeping romance set against the backdrop of the American Civil War."
+  },
+  {
+    "id": 44,
+    "title": "The Stranger",
+    "author": "Albert Camus",
+    "genre": "Philosophical Fiction",
+    "year": 1942,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780679720201-L.jpg",
+    "description": "An existential novel exploring absurdity and the human condition."
+  },
+  {
+    "id": 45,
+    "title": "Middlemarch",
+    "author": "George Eliot",
+    "genre": "Classic",
+    "year": 1871,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780141439549-L.jpg",
+    "description": "A masterful examination of life, love, and society in Victorian England."
+  },
+  {
+    "id": 46,
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "genre": "Science Fiction",
+    "year": 1965,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780441172719-L.jpg",
+    "description": "A complex tale of politics, religion, and ecology set on a desert planet."
+  },
+  {
+    "id": 47,
+    "title": "The Old Man and the Sea",
+    "author": "Ernest Hemingway",
+    "genre": "Fiction",
+    "year": 1952,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780684801223-L.jpg",
+    "description": "A timeless story of struggle, resilience, and man's relationship with nature."
+  },
+  {
+    "id": 48,
+    "title": "The Color Purple",
+    "author": "Alice Walker",
+    "genre": "Fiction",
+    "year": 1982,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780156028356-L.jpg",
+    "description": "A powerful tale of redemption, sisterhood, and the fight against oppression."
+  },
+  {
+    "id": 49,
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel García Márquez",
+    "genre": "Magical Realism",
+    "year": 1967,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780060883287-L.jpg",
+    "description": "A lyrical and epic tale of a family across generations in a mythical town."
+  },
+  {
+    "id": 50,
+    "title": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "genre": "Classic",
+    "year": 1877,
+    "image": "https://covers.openlibrary.org/b/ISBN/9780140449174-L.jpg",
+    "description": "A tragic and profound exploration of love, society, and morality."
+  }
+]
