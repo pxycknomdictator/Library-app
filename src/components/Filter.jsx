@@ -10,7 +10,7 @@ export const Filter = () => {
           placeholder="Search Book"
         />
       </search>
-      <select className="outline-none border border-black cursor-pointer bg-transparent px-2 rounded-sm">
+      <select className="outline-none cursor-pointer bg-transparent px-2 p-2 border border-black rounded-sm w-full sm:w-auto">
         <option value="all">{options.all}</option>
         <option value="Dystopian">{options.Dystopian}</option>
         <option value="Romance">{options.Romance}</option>

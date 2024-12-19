@@ -8,12 +8,14 @@ export const Footer = () => {
           </div>
           <div className="flex flex-col md:flex-row md:space-x-6 space-y-2 md:space-y-0">
             <a
+              target="_blank"
               href="https://github.com/pxycknomdictator"
               className="hover:text-gray-400 transition duration-300"
             >
               GitHub
             </a>
             <a
+              target="_blank"
               href="https://www.linkedin.com/in/noman-dev"
               className="hover:text-gray-400 transition duration-300"
             >
@@ -21,26 +23,24 @@ export const Footer = () => {
             </a>
           </div>
         </div>
-
         <div className="border-t border-gray-700 my-6"></div>
-
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-sm text-gray-500">
             Empowering readers since 2024.
           </p>
           <div className="flex space-x-4">
-            <a
-              href="#privacy"
-              className="text-sm hover:text-gray-400 transition duration-300"
+            <span
+              href="#"
+              className="cursor-pointer text-sm hover:text-gray-400 transition duration-300"
             >
               Privacy Policy
-            </a>
-            <a
-              href="#terms"
-              className="text-sm hover:text-gray-400 transition duration-300"
+            </span>
+            <span
+              href="#"
+              className="cursor-pointer text-sm hover:text-gray-400 transition duration-300"
             >
               Terms of Service
-            </a>
+            </span>
           </div>
         </div>
         <div className="text-center text-sm text-gray-500 mt-6">

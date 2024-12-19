@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
-    <div className="bg-gray-900 text-white px-5 py-3 flex flex-col md:flex-row md:justify-between md:items-center">
+    <header className="bg-gray-900 text-white px-5 py-3 flex flex-col md:flex-row md:justify-between md:items-center">
       <div className="flex justify-between items-center">
         <h1 className="text-2xl uppercase">Novel Nest</h1>
         <button className="text-white text-2xl md:hidden focus:outline-none"></button>
@@ -23,6 +23,6 @@ export const Navbar = () => {
           Borrowed Books
         </Link>
       </nav>
-    </div>
+    </header>
   );
 };
