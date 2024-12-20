@@ -1,11 +1,12 @@
-import books from "../database/books.json";
 import { Card } from "../components/Card";
 import { Footer } from "../components/Footer";
 import { Navbar } from "../components/Navbar";
 import { Wrapper } from "../components/Wrapper";
 import { Filter } from "../components/Filter";
+import { useFilterContext } from "../utils/filterConsumer";
 
 export const Home = () => {
+  const { filteredBooks } = useFilterContext();
   return (
     <>
       <Navbar />
@@ -13,7 +14,7 @@ export const Home = () => {
         <h1 className="text-3xl text-center my-7 font-semibold">Borrow Book</h1>
         <Filter />
         <ul className="grid grid-cols-3">
-          {books.map(({ id, ...book }) => (
+          {filteredBooks.map(({ id, ...book }) => (
             <Card key={id} book={book} />
           ))}
         </ul>
