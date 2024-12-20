@@ -3,13 +3,15 @@ import { filterContext } from "./filter.js";
 import booksData from "../../database/books.json";
 
 export const FilterContextProvider = ({ children }) => {
-  const [books, _] = useState(booksData);
   const [searchBook, setSearchBook] = useState("");
   const [bookOptions, setBookOptions] = useState("all");
 
-  const filteredBooks = books.filter((element) => {
+  const filteredBooks = booksData.filter((element) => {
     if (bookOptions === "all") {
-      return element.author.toLowerCase().includes(searchBook.toLowerCase());
+      return (
+        element.author.toLowerCase().includes(searchBook.toLowerCase()) ||
+        element.title.toLowerCase().includes(searchBook.toLowerCase())
+      );
     }
     return element.genre.toLowerCase().includes(bookOptions.toLowerCase());
   });

@@ -14,8 +14,8 @@ export const Home = () => {
         <h1 className="text-3xl text-center my-7 font-semibold">Borrow Book</h1>
         <Filter />
         <ul className="grid grid-cols-3">
-          {filteredBooks.map(({ id, ...book }) => (
-            <Card key={id} book={book} />
+          {filteredBooks.map((book) => (
+            <Card key={book.id} book={book} />
           ))}
         </ul>
       </Wrapper>

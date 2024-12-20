@@ -8,7 +8,7 @@ export const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/book" element={<BorrowBook />}></Route>
+        <Route path="/book/:id" element={<BorrowBook />}></Route>
         <Route path="/borrowed" element={<BorrowedBook />}></Route>
       </Routes>
     </BrowserRouter>
