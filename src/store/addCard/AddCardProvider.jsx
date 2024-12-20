@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { addCard } from "./addCard";
-import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 export const LOCAL_STORAGE_OPTION = "books";
 
@@ -9,11 +9,8 @@ export const getDataFromLocalStorage = () => {
 };
 
 export const AddCardProvider = ({ children }) => {
+  const navigate = useNavigate();
   const [storeBooks, setStoreBooks] = useState(getDataFromLocalStorage);
-
-  useEffect(() => {
-    localStorage.setItem(LOCAL_STORAGE_OPTION, JSON.stringify(storeBooks));
-  }, [storeBooks]);
 
   const addNewBook = (newBook) => {
     const is_exists = storeBooks.find((book) => book.id === newBook.id);
@@ -23,7 +20,16 @@ export const AddCardProvider = ({ children }) => {
     setStoreBooks((prev) => [...prev, newBook]);
   };
 
-  const dispatch = { setStoreBooks, addNewBook };
+  const removeBook = (bookId) => {
+    setStoreBooks((prev) => prev.filter((book) => book.id !== bookId));
+    navigate("/", { replace: true });
+  };
+
+  useEffect(() => {
+    localStorage.setItem(LOCAL_STORAGE_OPTION, JSON.stringify(storeBooks));
+  }, [storeBooks]);
+
+  const dispatch = { addNewBook, removeBook };
 
   return <addCard.Provider value={dispatch}>{children}</addCard.Provider>;
 };

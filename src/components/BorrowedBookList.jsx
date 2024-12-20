@@ -1,4 +1,5 @@
 import { getDataFromLocalStorage } from "../store/addCard/AddCardProvider";
+import { useCardContext } from "../utils/cardConsumer";
 
 export const BorrowedBooks = () => {
   const books = getDataFromLocalStorage();
@@ -17,6 +18,8 @@ export const BorrowedBooks = () => {
 };
 
 const BorrowedBookList = ({ book }) => {
+  const { removeBook } = useCardContext();
+
   return (
     <div className="border border-gray-300 shadow-lg rounded-lg p-4">
       <img
@@ -26,7 +29,10 @@ const BorrowedBookList = ({ book }) => {
       />
       <h2 className="text-lg md:text-xl font-bold">{book.title}</h2>
       <p className="text-sm md:text-base text-gray-600">by {book.author}</p>
-      <button className="w-full bg-red-500 hover:bg-red-600 p-2 text-white mt-2 rounded-md transition duration-300">
+      <button
+        onClick={() => removeBook(book.id)}
+        className="w-full bg-red-500 hover:bg-red-600 p-2 text-white mt-2 rounded-md transition duration-300"
+      >
         Remove Book
       </button>
     </div>

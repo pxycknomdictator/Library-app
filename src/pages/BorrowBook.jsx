@@ -6,7 +6,7 @@ import { useCardContext } from "../utils/cardConsumer";
 
 export const BorrowBook = () => {
   const { state: book } = useLocation();
-  const { setStoreBooks, addNewBook } = useCardContext();
+  const { addNewBook } = useCardContext();
 
   return (
     <>
