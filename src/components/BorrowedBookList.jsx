@@ -5,9 +5,15 @@ export const BorrowedBooks = () => {
   const books = getDataFromLocalStorage();
   return (
     <>
-      <h1 className="text-3xl md:text-4xl font-bold mb-4 px-4 text-center">
-        Borrowed Books {books.length}
-      </h1>
+      {books.length !== 0 ? (
+        <h1 className="text-3xl md:text-4xl font-bold mb-4 px-4 text-center">
+          Borrowed Books {books.length}
+        </h1>
+      ) : (
+        <h1 className="text-3xl md:text-4xl font-bold mb-4 px-4 text-center">
+          No books borrowed
+        </h1>
+      )}
       <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4">
         {books.map((book) => (
           <BorrowedBookList key={book.id} book={book} />
