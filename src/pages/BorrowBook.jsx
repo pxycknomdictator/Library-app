@@ -6,7 +6,7 @@ import { useCardContext } from "../utils/cardConsumer";
 
 export const BorrowBook = () => {
   const { state: book } = useLocation();
-  const { setStoreBooks } = useCardContext();
+  const { setStoreBooks, addNewBook } = useCardContext();
 
   return (
     <>
@@ -49,7 +49,7 @@ export const BorrowBook = () => {
               <div className="mt-4">
                 <Link to="/borrowed">
                   <button
-                    onClick={() => setStoreBooks((prev) => [...prev, book])}
+                    onClick={() => addNewBook(book)}
                     className="w-full bg-[#1F1E24] py-2 rounded-md text-white hover:bg-[#33323a] transition-colors"
                   >
                     Borrow Book
