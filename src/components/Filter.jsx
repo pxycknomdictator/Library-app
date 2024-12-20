@@ -2,7 +2,7 @@ import { options } from "../constants/options.js";
 import { useFilterContext } from "../utils/filterConsumer.js";
 
 export const Filter = () => {
-  const { searchBook, setSearchBook } = useFilterContext();
+  const { searchBook, setSearchBook, setBookOptions } = useFilterContext();
 
   return (
     <section className="flex px-7 my-6 gap-6">
@@ -15,7 +15,10 @@ export const Filter = () => {
           onChange={(event) => setSearchBook(event.target.value)}
         />
       </search>
-      <select className="outline-none cursor-pointer bg-transparent px-2 p-2 border border-black rounded-sm w-full sm:w-auto">
+      <select
+        className="outline-none cursor-pointer bg-transparent px-2 p-2 border border-black rounded-sm w-full sm:w-auto"
+        onChange={(event) => setBookOptions(event.target.value)}
+      >
         <option value="all">{options.all}</option>
         <option value="Dystopian">{options.Dystopian}</option>
         <option value="Romance">{options.Romance}</option>
