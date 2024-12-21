@@ -11,9 +11,9 @@ export const Home = () => {
     <>
       <Navbar />
       <Wrapper>
-        <h1 className="text-3xl text-center my-7 font-semibold">Borrow Book</h1>
+        <h1 className="text-3xl text-center my-7 font-semibold">Borrow book</h1>
         <Filter />
-        <ul className="grid grid-cols-3">
+        <ul className="w-full place-items-center grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 lg:gap-4">
           {filteredBooks.map((book) => (
             <Card key={book.id} book={book} />
           ))}

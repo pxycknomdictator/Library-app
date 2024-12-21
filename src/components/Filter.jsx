@@ -5,7 +5,7 @@ export const Filter = () => {
   const { searchBook, setSearchBook, setBookOptions } = useFilterContext();
 
   return (
-    <section className="flex px-7 my-6 gap-6">
+    <section className="flex flex-col gap-2 sm:flex-row px-7 my-6 lg:gap-6 text-[.89rem] lg:text-[1rem]">
       <search className="w-full">
         <input
           className="w-full border-black border outline-none  py-2 px-3 focus-visible:border-blue-500 focus-visible:border-[2.3px]"

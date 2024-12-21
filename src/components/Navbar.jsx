@@ -2,20 +2,17 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
-    <header className="bg-gray-900 text-white px-5 py-3 flex flex-col md:flex-row md:justify-between md:items-center">
-      <Link to="/" className="text-2xl uppercase">
-        Novel Nest
+    <header className="bg-gray-900 text-white px-5 py-3 text-center md:flex md:justify-between">
+      <Link to="/" className="text-2xl font-semibold uppercase">
+        Book Mania
       </Link>
-      <nav className="flex-col md:flex-row md:flex md:items-center md:space-x-4">
-        <Link
-          to="/"
-          className="text-lg text-white hover:text-gray-400 px-2 py-1"
-        >
-          Book Library
+      <nav className="mt-4 text-[1rem] md:text-[1.1rem] md:mt-0">
+        <Link to="/" className="text-white hover:text-gray-400 px-2 py-1">
+          Library
         </Link>
         <Link
           to="/borrowed"
-          className="text-lg text-white hover:text-gray-400 px-2 py-1"
+          className="text-white hover:text-gray-400 px-2 py-1"
         >
           Borrowed Books
         </Link>
